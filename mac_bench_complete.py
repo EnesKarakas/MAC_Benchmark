@@ -75,7 +75,7 @@ class ComprehensiveMACBenchmark:
                 'function': self.wrapper_kmac256,
                 'description': 'Keccak MAC (NIST SP 800-185)',
                 'key_size': 32,
-                'tag_size': 32,
+                'tag_size': 8,
                 'standard': 'NIST SP 800-185'
             },
             {
